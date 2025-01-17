@@ -3,10 +3,10 @@
 
 class Calculator
 {
-public:
+private:
   double num1{};
   double num2{};
-
+public:
   void vvod()
   {
     std::cout << "Enter num1:";
@@ -89,7 +89,7 @@ int main() {
     else
     {
       std::cout << "vvod not correct!" << "\n";
-      calculator.vvod();
+      //calculator.vvod();
     }
   }
 }
